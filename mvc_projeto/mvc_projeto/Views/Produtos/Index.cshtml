@@ -1,0 +1,38 @@
+﻿@{
+    List<busnises.Produtos> produtos = ViewBag.Produtos;
+}
+<script>
+    var ValidaExclusão = function (id, evento) {
+        if (confirm("Deseja mesmo excuir oermanentementos os dados?")) {
+            return true;
+        } else {
+            evento.preventDefault();
+            return false;
+        }
+    }
+
+</script>
+
+<div class="jumbotron">
+    <h3> PRODUTOS </h3>
+    <a href="/Produtos/Novo" class="btn btn-default">Adicionar produtos a lista</a>
+    <table class="table">
+        <tr>
+            <th>ID</th><th>NOME</th><th>QUANTIDADE</th><th></th><th></th>
+        </tr>
+        @foreach(var i in produtos)
+            {
+    <tr>
+        <td>@i.id</td>
+        <td>@i.nome</td>
+        <td>@i.quantidade</td>
+        <td>
+            <a href="/Produtos/@i.id/Editar" class="btn btn-primary">Editar</a>
+        </td>
+        <td>
+            <a href="/Produtos/@i.id/Excluir" class="btn btn-danger" onclick="ValidaExclusão(@i.id, event)">Excluir</a>
+        </td>
+    </tr>
+            }
+    </table>
+</div>

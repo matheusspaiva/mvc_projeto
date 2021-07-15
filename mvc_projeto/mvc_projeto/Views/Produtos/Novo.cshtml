@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Adicionar produto";
+}
+
+<div class="jumbotron">
+    <a href="/Produtos/Index" class="btn btn-default">Lista de produtos</a><br /><br />
+    <form action="Adicionar" method="post">
+        <div class="form-group">
+            <label> ID</label>
+            <input type="text" name="id" />
+        </div>
+        <div class="form-group">
+            <label> nome</label>
+            <input type="text" name="nome" />
+        </div>
+        <div class="form-group">
+            <label> Quantidade</label>
+            <input type="text" name="quantidade" />
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>

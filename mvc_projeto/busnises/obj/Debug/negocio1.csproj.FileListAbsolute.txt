@@ -1,0 +1,6 @@
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\bin\Debug\negocio1.dll
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\bin\Debug\negocio1.pdb
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\obj\Debug\negocio1.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\obj\Debug\negocio1.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\obj\Debug\negocio1.dll
+C:\Users\mathe\source\repos\mvc_projeto\negocio1\obj\Debug\negocio1.pdb
